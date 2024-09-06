@@ -11,9 +11,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let customLoader = DotInfinitePathLoader(frame: .init(x: 0, y: 0, width: 256, height: 256))
+        view.addSubview(customLoader)
     }
-
-
 }
 
